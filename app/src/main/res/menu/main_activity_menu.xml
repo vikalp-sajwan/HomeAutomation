@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Menu layout file for the main activity toolbar
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomePageActivity">
+
+    <item
+        android:id="@+id/cameraButton"
+        android:title="Show Camera Feed"
+        android:icon="@drawable/ic_video"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/refreshButton"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/logoutButton"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
